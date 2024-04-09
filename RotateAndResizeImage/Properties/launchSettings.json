@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RotateAndResizeImage": {
+      "commandName": "Project",
+      "commandLineArgs": "file -f -i d:\\test\\test.jpg -o d:\\test\\target.jpg -h 2048 -v 1536 -l debug"
+    },
+    "Folder": {
+      "commandName": "Project",
+      "commandLineArgs": "folder -f -s D:\\temp\\files\\test\\*.jpg -t d:\\test\\output -h 2048 -v 1536 -l Information"
+    }
+  }
+}
